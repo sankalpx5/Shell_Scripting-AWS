@@ -3,11 +3,17 @@
 
  # 1. Github-api
 
-**A simple shell script to list users with access to a GitHub repository**
+**A simple shell script to list users with access (in this case read access) to a GitHub repository**
 
 ## Overview
 
 This project contains a shell script, `list-user.sh`, that leverages the GitHub API to retrieve and display a list of users who have access to a specified GitHub repository. 
+
+#### Key features:
+   • Leverages the GitHub API to retrieve user information.  
+   • Filters collaborators based on read access (pull permission).  
+   • Displays a list of users with read access.  
+   • Uses curl for API calls and jq for JSON parsing.  
 
 ## Installation
 
