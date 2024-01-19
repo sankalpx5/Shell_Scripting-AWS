@@ -51,7 +51,7 @@ echo "Bucket creation output: $bucket_output"
 aws s3 cp ./example_file.txt s3://"$bucket_name"/example_file.txt
 
 # Create a Zip file to upload Lambda Function
-zip -r s3-lambda-function.zip ./s3-lambda-function
+zip -r s3-lambda-function.zip . -i ./s3-lambda-function
 
 sleep 5
 # Create a Lambda function
