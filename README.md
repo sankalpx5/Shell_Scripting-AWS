@@ -80,9 +80,9 @@ cd your-repo
 ```Bash
  ./s3-notification-triggers.sh
 ```
+  - The script will prompt for the email address to receive notifications.
 
- The script will prompt for the email address to receive notifications.
-3. Upload files to the S3 bucket:
+3. Upload files to the S3 bucket:  
      - Any new object upload will trigger the Lambda function and send an email notification.  
      
 ## Scripts and Functionality
